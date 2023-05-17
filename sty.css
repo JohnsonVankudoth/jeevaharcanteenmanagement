@@ -1,0 +1,130 @@
+/* Style for main page */
+header {
+    background-color: #ff6f61;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  h3 {
+    margin-top: 10px;
+  }
+  
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .menu-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: calc(33.33% - 20px);
+    text-align: center;
+  }
+  
+  .menu-item h3 {
+    margin-top: 0;
+  }
+  
+  .price {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .add-to-cart {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #3e8e41;
+  }
+  
+  .cart {
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: 20px;
+  }
+  
+  .cart h2 {
+    margin-top: 0;
+  }
+  
+  .cart-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .cart-items li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .cart-items li .name {
+    font-weight: bold;
+  }
+  
+  .cart-items li .price {
+    font-size: 14px;
+  }
+  
+  .total {
+    font-weight: bold;
+  }
+  /* Style for subpages */
+  .subpage-header {
+    background-color: #6fc3df;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .subpage-header h2 {
+    margin: 0;
+  }
+  
+  .subpage-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .subpage-menu-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: calc(50% - 20px);
+    text-align: center;
+  }
+  
+  .subpage-menu-item h3 {
+    margin-top: 0;
+  }
+  
+  .subpage-menu-item .price {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
